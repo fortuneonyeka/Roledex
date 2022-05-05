@@ -1,10 +1,8 @@
 import React from "react";
-import { Component } from "react";
 import "./card-img.style.css"
 
-class CardImg extends Component { 
-  render(){
-    const {monster} = this.props
+const CardImg = ({monster}) =>  { 
+ 
 
     //destructure off monster so i dont have to use monster.name etc in mutiple places
     //I can destructure and use the variable in all occassions but i am chosing to use them 
@@ -22,8 +20,8 @@ class CardImg extends Component {
         <p>Address: {address.suite} {address.street}, {address.city}</p>
       </div>
     );
-  }
+  };
   
-};
+
 
 export default CardImg;
