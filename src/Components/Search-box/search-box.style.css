@@ -1,0 +1,18 @@
+
+.search-monster {
+  -webkit-appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 300px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(246, 194, 4, 0.957);
+  background-color: #95dada;
+}
+
+.search-monster:focus {
+ background-color: white;
+  
+}
